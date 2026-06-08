@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Vigor — Support</title>
+  <meta name="description" content="Support and contact information for Vigor — the meal tracker with friends." />
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E🥗%3C/text%3E%3C/svg%3E">
+  <style>
+    :root {
+      --bg: #0A0A0A;
+      --card: #141414;
+      --border: rgba(255, 255, 255, 0.08);
+      --text: #FFFFFF;
+      --muted: #999;
+      --primary: #E58B5C;
+    }
+    * { box-sizing: border-box; }
+    html, body { margin: 0; padding: 0; background: var(--bg); color: var(--text); font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", system-ui, sans-serif; -webkit-font-smoothing: antialiased; }
+    body { min-height: 100vh; display: flex; flex-direction: column; align-items: center; padding: 48px 24px 80px; }
+    .container { width: 100%; max-width: 680px; }
+    header { text-align: center; margin-bottom: 48px; }
+    .logo { font-size: 56px; font-weight: 900; color: var(--primary); letter-spacing: -1px; margin: 0 0 8px; }
+    .tagline { color: var(--muted); font-size: 14px; margin: 0; }
+    h1 { font-size: 28px; font-weight: 800; margin: 0 0 16px; letter-spacing: -0.3px; }
+    .lead { color: var(--muted); font-size: 16px; line-height: 1.55; margin-bottom: 32px; }
+    .card {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      padding: 28px;
+      margin-bottom: 16px;
+    }
+    .card h2 { font-size: 18px; font-weight: 700; margin: 0 0 12px; }
+    .card p { color: var(--muted); font-size: 14px; line-height: 1.6; margin: 0 0 10px; }
+    .card p:last-child { margin-bottom: 0; }
+    .cta {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      background: var(--primary);
+      color: #0A0A0A;
+      font-weight: 700;
+      padding: 12px 18px;
+      border-radius: 12px;
+      text-decoration: none;
+      font-size: 15px;
+      margin-top: 12px;
+    }
+    .cta:hover { filter: brightness(1.08); }
+    ul { color: var(--muted); font-size: 14px; line-height: 1.7; padding-left: 22px; margin: 8px 0 0; }
+    a { color: var(--primary); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    footer { margin-top: 56px; color: #555; font-size: 12px; text-align: center; }
+    footer a { color: #888; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <p class="logo">Vigor</p>
+      <p class="tagline">Meal tracker with friends</p>
+    </header>
+
+    <h1>Support &amp; contact</h1>
+    <p class="lead">
+      Hit a bug, have a feature request, or need help with your account?
+      We read every message and reply within a couple of business days.
+    </p>
+
+    <div class="card">
+      <h2>Email us</h2>
+      <p>The fastest way to reach us is email. Include a screenshot if it's a visual bug, and your username if it's account-related — we'll find your data faster.</p>
+      <a class="cta" href="mailto:vigorfitnessmealtracker@gmail.com?subject=Vigor%20support">
+        ✉ vigorfitnessmealtracker@gmail.com
+      </a>
+    </div>
+
+    <div class="card">
+      <h2>In-app feedback</h2>
+      <p>You can also send feedback straight from the app: <strong>Profile → Send Feedback</strong>. It lands in our queue alongside email.</p>
+    </div>
+
+    <div class="card">
+      <h2>Common questions</h2>
+      <ul>
+        <li><strong>Delete my account?</strong> Profile → Delete My Account. Wipes everything immediately.</li>
+        <li><strong>Export my data?</strong> Profile → Export My Data. JSON via the system share sheet.</li>
+        <li><strong>Forgot which email I signed up with?</strong> Email us — we can look it up.</li>
+        <li><strong>Wrong calorie estimate?</strong> Re-describe the meal with portion size ("100g", "1 cup"). If still off, tap the meal and edit the numbers manually.</li>
+        <li><strong>App stuck after signing in?</strong> Force-quit the app and reopen. If it persists, email us with your device model + iOS/Android version.</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h2>Privacy &amp; data</h2>
+      <p>
+        Read how we handle your data in our
+        <a href="https://www.termsfeed.com/live/841bb28f-2bd4-4ea7-9e06-84f8f31c1827">Privacy Policy</a>
+        and the
+        <a href="terms-of-service.html">Terms of Service</a>.
+        Your weight, height, and personal info are private to your account — friends only see your username, avatar, streak, and the titles of meals you log.
+      </p>
+    </div>
+
+    <footer>
+      © Vigor · <a href="https://www.termsfeed.com/live/841bb28f-2bd4-4ea7-9e06-84f8f31c1827">Privacy</a> · <a href="terms-of-service.html">Terms</a>
+    </footer>
+  </div>
+</body>
+</html>
